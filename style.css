@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-background-color: FFEAEA;
+    background-color: FFEAEA;
 }
 
 header {
@@ -18,6 +19,7 @@ header h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
 header span {
     color: rgb(46, 109, 118);
 }
@@ -37,9 +39,10 @@ header li a {
     color: white;
 }
 
-header li a:hover{
+header li a:hover {
     color: blue;
 }
+
 main {
     padding: 50px 25px;
     max-width: 50%;
@@ -55,11 +58,20 @@ main section {
 }
 
 main section li {
-    list-style-type:circle;
+    list-style-type: circle;
 }
+
 main section li:hover {
     color: aqua;
 }
+
+img {
+    max-width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+
 footer {
     background-color: #F5CBCB;
     height: 50px;
@@ -67,14 +79,6 @@ footer {
     text-align: center;
 }
 
-img {
-    max-width: 100%;
-    position: relative;
-    left: 45%;
-}
-
-main section section img {
-}
 
 footer p {
     color: black;
